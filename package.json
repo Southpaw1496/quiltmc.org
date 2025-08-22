@@ -10,6 +10,7 @@
 		"clean": "node scripts/clean.mjs"
 	},
 	"devDependencies": {
+<<<<<<< HEAD
 		"@astrojs/mdx": "^3.1.5",
 		"@astrojs/rss": "^4.0.7",
 		"@astrojs/sitemap": "^3.1.6",
@@ -30,16 +31,42 @@
 		"glob": "^11.0.0",
 		"hast-util-from-html": "^2.0.1",
 		"i18next": "^23.12.2",
+=======
+		"@astrojs/mdx": "^4.3.4",
+		"@astrojs/rss": "^4.0.12",
+		"@astrojs/sitemap": "^3.5.0",
+		"@types/file-saver": "^2.0.7",
+		"@types/jsdom": "^21.1.7",
+		"@types/lunr": "^2.3.7",
+		"@types/luxon": "^3.7.1",
+		"@types/prismjs": "^1.26.5",
+		"@types/semver-compare": "^1.0.3",
+		"@types/semver-sort": "^0.0.5",
+		"@types/swagger-ui": "^3.52.4",
+		"astro": "^5.13.2",
+		"astro-i18next": "github:quiltmc/astro-i18next#da5ff6e",
+		"bulma-toast": "^2.4.4",
+		"execa": "^9.6.0",
+		"file-saver": "^2.0.5",
+		"glob": "^11.0.3",
+		"hast-util-from-html": "^2.0.3",
+		"i18next": "^24.2.3",
+>>>>>>> 462ccb6 (Update dependencies)
 		"i18next-fluent": "^2.0.0",
 		"i18next-fs-fluent-backend": "github:quiltmc/i18next-fs-fluent-backend",
 		"jsdom": "^24.1.1",
 		"jszip": "^3.10.1",
 		"lunr": "^2.3.9",
+<<<<<<< HEAD
 		"marked": "^14.0.0",
+=======
+		"marked": "^15.0.12",
+>>>>>>> 462ccb6 (Update dependencies)
 		"node-fetch": "^3.3.2",
 		"prismjs": "^1.29.0",
 		"quilt-bulma": "0.0.24",
 		"rehype-autolink-headings": "^7.1.0",
+<<<<<<< HEAD
 		"rollup": "^4.20.0",
 		"sass": "^1.77.8",
 		"semver-compare": "^1.0.0",
@@ -54,13 +81,40 @@
 		"@tsndr/cloudflare-worker-jwt": "^2.5.3",
 		"astro-compress": "^2.3.1",
 		"astro-icon": "^1.1.0",
+=======
+		"rollup": "^4.47.1",
+		"sass": "^1.90.0",
+		"semver-compare": "^1.0.0",
+		"swagger-ui": "^5.27.1",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"@babel/traverse": "^7.28.3",
+		"@iconify-json/cib": "^1.2.3",
+		"@iconify-json/material-symbols": "^1.2.33",
+		"@iconify-json/mdi": "^1.2.3",
+		"@tsndr/cloudflare-worker-jwt": "^3.2.0",
+		"astro-compress": "^2.3.8",
+		"astro-icon": "^1.1.5",
+		"astro-purgecss": "5.0.0",
+>>>>>>> 462ccb6 (Update dependencies)
 		"semver-sort": "^1.0.0",
 		"xml-js": "^1.6.11"
 	},
 	"pnpm": {
 		"overrides": {
 			"@iconify/tools": "^4.0.0"
-		}
+		},
+		"onlyBuiltDependencies": [
+			"@parcel/watcher",
+			"@scarf/scarf",
+			"@tree-sitter-grammars/tree-sitter-yaml",
+			"core-js-pure",
+			"esbuild",
+			"sharp",
+			"tree-sitter",
+			"tree-sitter-json"
+		]
 	},
 	"engines": {
 		"node": ">=20"
