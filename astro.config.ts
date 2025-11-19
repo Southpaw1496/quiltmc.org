@@ -10,7 +10,7 @@ import icon from "astro-icon"
 import compress from "astro-compress";
 import searchIndex from "./src/integration/search-index";
 
-// https://astro.build/config Testingh
+// https://astro.build/config Testinghg
 export default defineConfig({
   site: "https://quiltmc.org/",
   integrations: [
